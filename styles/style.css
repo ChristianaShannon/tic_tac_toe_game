@@ -1,0 +1,78 @@
+body {
+
+	background-image: url("../img/bkg_universal.jpg");
+	color: rgba(216,216,216,0.65);
+	text-align: center;
+	font-family: 'Indie Flower', 'Comic Sans', cursive;
+	font-size: 1em;
+}
+h1 {
+	line-height: 1em;
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	font-size: 3.2em;
+	font-weight: bold;
+}
+h2 {
+	font-size: 2em;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+
+}
+h3 {
+	font-size: 1.6em;
+	text-decoration: underline;
+	text-decoration-style: dashed;
+	padding: 0;
+	margin: 10px 0 2px 0;
+}
+table {
+	margin: 10% auto;
+	border-collapse: collapse;
+}
+label, input{
+	font-size:1.4em;
+}
+button{
+	
+}
+#gameBoard {
+	margin: 1% auto;
+	position: relative;
+	font-size: 120px;	
+	border-collapse: collapse;
+	border: 3px dotted rgba(216,216,216,0.65);
+	border-radius: 10px;
+}
+.td_game {
+	border: 2px dashed rgba(216,216,216,0.65);
+	width: 90px;
+	height: 90px;
+	padding: 0;
+	vertical-align: middle;
+	text-align: center;
+	cursor: pointer;
+	font-size:60px;
+	font-weight:bold;
+}
+#restart {
+	font-size: 2em;
+	height: 0.9em;
+	cursor: pointer;
+	margin: 5px auto;
+	overflow: hidden;
+}
+#restart>span{
+	vertical-align:top;
+	position:relative;
+	top:-10px;
+}
+.winner {
+	background: #E94F37;
+	color: #fff;
+}
+#startChoose{
+	position:relative;
+	top:16em;
+}

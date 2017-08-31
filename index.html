@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>toe game</title>
+	 <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div id="startChoose" class="modal">
+		<div class="modal-content">
+			<h2>Choose your role,human.</h2>
+			<h3>Play Role</h3>
+			<label><input type="radio" name="playRole" id="rX" value="X">X(play first)&nbsp</label>
+			<label><input type="radio" name="playRole" id="rO" value="O">O</label>
+			<p><button id="startBtn">Play</button></p>
+		</div>
+	</div>
+	<h1>Tic-Tac-Toe</h1>
+	<div id="playGame">
+		<table id="gameBoard">
+			<tr>
+				<td class="td_game" id="a1"></td>
+				<td class="td_game" id="b1"></td>
+				<td class="td_game" id="c1"></td>    
+			</tr>
+			<tr>
+				<td class="td_game" id="a2"></td>
+				<td class="td_game" id="b2"></td>
+				<td class="td_game" id="c2"></td>    
+			</tr>
+			<tr>
+				<td class="td_game" id="a3"></td>
+				<td class="td_game" id="b3"></td>
+				<td class="td_game" id="c3"></td>    
+			</tr>	
+		</table>
+	</div>
+	<div id="restart" title="Start new game">
+		<span>#Re~#</span>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.1.0/jquery.min.js"></script>
+	<script src="scripts/script.js"></script>
+</body>
+</html>
